@@ -1,0 +1,45 @@
+[ ]
+
+javascript
+// Print numbers 1-10 using different loops// Using for loop
+console.log("Using for loop:");
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
+}
+
+// Using while loop
+console.log("Using while loop:");
+let j = 1;
+while (j <= 10) {
+  console.log(j);
+  j++;
+}
+
+// Using do...while loop
+console.log("Using do...while loop:");
+let k = 1;
+do {
+  console.log(k);
+  k++;
+} while (k <= 10);
+
+// Printing numbers 10-1 (reverse)
+console.log("Reverse using for loop:");
+for (let i = 10; i >= 1; i--) {
+  console.log(i);
+}
+
+// More advanced: using for...of with an array
+console.log("Using for...of loop:");
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+for (const num of numbers) {
+  console.log(num);
+}
+
+// Printing even numbers from 1-10
+console.log("Even numbers from 1-10:");
+for (let i = 1; i <= 10; i++) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+}
